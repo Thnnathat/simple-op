@@ -27,7 +27,7 @@ pipeline {
             steps {
                 script {
                     // รัน Docker Compose
-                    sh 'docker-compose up -d'
+                    sh 'docker compose up -d'
                 }
             }
         }
