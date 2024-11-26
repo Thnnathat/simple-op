@@ -36,7 +36,7 @@ pipeline {
             steps {
                 script {
                     // เพิ่มขั้นตอนทดสอบถ้าจำเป็น (เช่น การทดสอบ API)
-                    sh 'curl http://localhost:5000'
+                    sh 'curl http://localhost:8989'
                 }
             }
         }
