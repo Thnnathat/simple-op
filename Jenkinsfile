@@ -32,16 +32,6 @@ pipeline {
             }
         }
 
-        stage('Test') {
-            steps {
-                script {
-                    // เพิ่มขั้นตอนทดสอบถ้าจำเป็น (เช่น การทดสอบ API)
-                    sh 'curl http://localhost:8989'
-                }
-            }
-        }
-    }
-
     post {
         always {
             // คำสั่งที่ต้องการให้ทำเสมอเมื่อ pipeline เสร็จสิ้น
