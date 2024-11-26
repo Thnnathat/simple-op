@@ -3,7 +3,7 @@ pipeline {
 
     environment {
         // กำหนด environment variables ที่ต้องการใช้
-        DOCKER_IMAGE = 'myapp:latest'
+        DOCKER_IMAGE = 'python-api:latest'
     }
 
     stages {
