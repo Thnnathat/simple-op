@@ -12,6 +12,10 @@ def read_root():
 def new_endpoint():
     return {"message": "New"}
 
-@app.get("/new2")
+@app.get("/new")
 def new_endpoint():
-    return {"message": "New2"}
+    return {"message": "New"}
+
+@app.get("/new2")
+def new_endpoint2():
+    return {"message": "New3"}
