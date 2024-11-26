@@ -19,4 +19,4 @@ COPY . .
 EXPOSE 8989
 
 # Command to run the executable
-CMD ["uvicorn", "app:app", "--port", "8989"]  
+CMD ["uvicorn", "app:app", "--host", "0.0.0.0", "--port", "8989"]  
