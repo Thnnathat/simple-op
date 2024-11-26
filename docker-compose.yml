@@ -1,0 +1,7 @@
+version: '3.8'
+services:
+  api:
+    container_name: python-api
+    image: python-api:latest
+    ports:
+      - 8989:8989
