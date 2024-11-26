@@ -11,3 +11,7 @@ def read_root():
 @app.get("/new")
 def new_endpoint():
     return {"message": "New"}
+
+@app.get("/new2")
+def new_endpoint():
+    return {"message": "New2"}
