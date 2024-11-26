@@ -18,6 +18,9 @@ pipeline {
             steps {
                 script {
                     // Build Docker image ด้วย Dockerfile
+                    retry(3) {
+
+                    }
                     sh 'docker build -t $DOCKER_IMAGE .'
                 }
             }
