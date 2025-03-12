@@ -6,7 +6,7 @@ app = FastAPI()
 # Define a route for the root URL ("/")
 @app.get("/")
 def read_root():
-    return {"message": "Hello, Guys!"}
+    return {"message": "Hello, DevOps!"}
 
 @app.get("/new")
 def new_endpoint():
