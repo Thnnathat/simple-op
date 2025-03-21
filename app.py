@@ -7,15 +7,3 @@ app = FastAPI()
 @app.get("/")
 def read_root():
     return {"message": "Hello, Jungle!"}
-
-@app.get("/new")
-def new_endpoint():
-    return {"message": "New"}
-
-@app.get("/new")
-def new_endpoint():
-    return {"message": "New"}
-
-@app.get("/new2")
-def new_endpoint2():
-    return {"message": "New3"}
